@@ -35,7 +35,7 @@ Dicas rápidas
 Indentação
 ==========
 
-Um tab é usado para a indentação.
+Um tab é usado para a indentação. Não injete espaços para indentar.
 
 Dessa forma, o código deve ser algo parecido com isto::
 
@@ -55,6 +55,15 @@ Ou::
             echo "We have encountered a moose";
         }
     }
+
+Razões para usar tab e não espaços para indentar seus arquivos.
+===============================================================
+
+- Tabs são símbolos que são semanticamente identificáveis ("\t" ou "\x09")
+- Tabs permitem que os desenvolvedores definam a preferência de recuo
+- Tabs ajudam a evitar espaçamentos incoerentes (3 ou 5 espaços por engano)
+- Tabs reduzem o tamanho do arquivo com uma sobrecarga desnecessária
+- Tabs foram projetados para linha/coluna (layouts baseados em texto), utilizando o recuo e espaçamento
 
 Estruturas de controle
 ======================
