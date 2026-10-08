@@ -1,13 +1,17 @@
 # Padrões de desenvolvimento fullstack
 
-Guias de estilo para projetos PHP + JavaScript. O PHP segue [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-4](https://www.php-fig.org/psr/psr-4/), [PSR-12](https://www.php-fig.org/psr/psr-12/) e [PER Coding Style](https://www.php-fig.org/per/coding-style/). O JavaScript segue ES2020+ com módulos nativos.
+Guias de estilo para a equipe. PHP segue [PSR-1](https://www.php-fig.org/psr/psr-1/), [PSR-4](https://www.php-fig.org/psr/psr-4/), [PSR-12](https://www.php-fig.org/psr/psr-12/) e [PER Coding Style](https://www.php-fig.org/per/coding-style/). JavaScript segue ES2020+ com módulos nativos. TypeScript herda o guia JS com `strict`. Go segue `gofmt`. Rust segue `rustfmt` e Clippy. Python segue PEP 8 com Ruff.
 
-Use estes documentos em qualquer projeto da equipe. Ferramentas (`php-cs-fixer`, `phpcs`, ESLint, Prettier) devem refletir as mesmas regras.
+Use estes documentos em qualquer projeto da equipe. As ferramentas de cada linguagem devem refletir as mesmas regras.
 
 ## Documentos
 
 * [Padrões PHP](padroes-php.md)
 * [Padrões JavaScript](padroes-javascript.md)
+* [Padrões TypeScript](padroes-typescript.md)
+* [Padrões Go](padroes-go.md)
+* [Padrões Rust](padroes-rust.md)
+* [Padrões Python](padroes-python.md)
 * [Padrões HTML](padroes-html.md)
 * [Padrões CSS](padroes-css.md)
 * [Padrões SQL](padroes-sql.md)

@@ -15,7 +15,7 @@ Muitos testes de unidade, menos de integração, poucos de UI. Não substitua um
 
 ## Nomenclatura
 
-Arquivo: `{Unidade}Test.php` ou `{unidade}.test.js`. Nome do caso em português, comportamento + condição.
+Arquivo: `{Unidade}Test.php`, `{unidade}.test.js`, `{unidade}.test.ts`, `*_test.go`, `test_*.py` ou módulo `tests` em Rust. Nome do caso em português, comportamento + condição.
 
 ```php
 public function testIssueRecusaFaturaJaEmitida(): void
